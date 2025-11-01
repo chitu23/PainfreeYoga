@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAIN FREE YOGA"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="24dp" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="209dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Logo"
+        android:src="@drawable/logo1" />
+
+    <!-- Spacer -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <!-- Admin Button -->
+    <Button
+        android:id="@+id/adminlogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:backgroundTint="#3C6662"
+        android:layout_marginTop="16dp" />
+
+    <!-- Patient Button -->
+    <Button
+        android:id="@+id/patientlogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Patient"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:backgroundTint="#386662"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

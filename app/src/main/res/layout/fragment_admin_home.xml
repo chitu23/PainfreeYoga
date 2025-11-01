@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F2C885">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello\nNirmal kumar"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:background="#E8B0DF"
+        android:padding="12dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search..."
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:padding="8dp"
+        android:background="#FFF"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:listitem="@layout/item_patient"
+        android:layout_weight="1"
+        android:paddingTop="8dp"/>
+</LinearLayout>
